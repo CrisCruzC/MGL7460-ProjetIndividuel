@@ -1,0 +1,8 @@
+
+git log --numstat --date=short --pretty=format:'--%h--%ad--%aN' > maat_evo_react_complet.log
+
+java -jar ~/ProjectsGit/code-maat/target/code-maat-1.1-SNAPSHOT-standalone.jar -l maat_evo_react_complet.log -c git2 -a summary > maat-summary-react.csv
+
+java -jar ~/ProjectsGit/code-maat/target/code-maat-1.1-SNAPSHOT-standalone.jar -c git2 -l maat_evo_react_complet.log -a main-dev > main_devs_react.csv
+
+java -jar ~/ProjectsGit/code-maat/target/code-maat-1.1-SNAPSHOT-standalone.jar -c git2 -l maat_evo_react_complet.log -a entity-ownership > entity_ownership_react.csv
