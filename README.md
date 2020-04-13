@@ -14,3 +14,4 @@ MGL7460-90-ProjetIndividuelle-IrmaCristinaCruz-L2.pdf
 Les fichiers d'analyse finaux sont les suivantes :
 - AnalyseReactFichierDeTravail-L2.xlsx
 - Analyse-Evolution-L2.xlsx
+- AnalysePaternite_react-L2.xlsx
